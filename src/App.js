@@ -9,7 +9,7 @@ import {
   Smile, Coffee, Sun, Sunrise, Sunset, Flame, Leaf, Pill, 
   Milk, Dumbbell, Zap, XCircle, Wand2, LayoutGrid, Edit3, RotateCcw, Columns, Check
 } from 'lucide-react';
-
+//
 // --- Firebase 配置 (請替換為妳在 Firebase Console 取得的配置) ---
 const firebaseConfig = {
   apiKey: "AIzaSyAw-vcd1rzVEf3aEW9QTRHac-X2k06rjZU",
