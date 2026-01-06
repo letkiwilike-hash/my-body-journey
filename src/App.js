@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useMemo } from 'react';
 import { initializeApp } from 'firebase/app';
+import { getFirestore } from 'firebase/firestore';
 import { getAuth, signInAnonymously, onAuthStateChanged } from 'firebase/auth';
 import { getFirestore, collection, doc, setDoc, query, onSnapshot, orderBy } from 'firebase/firestore';
 import { 
