@@ -24,7 +24,7 @@ const firebaseConfig = {
 // 初始化 Firebase
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
-const db = getFirestore(app);
+const db = getfirestore(app);
 const appId = typeof __app_id !== 'undefined' ? __app_id : 'body-journey-pro';
 const GEMINI_API_KEY = "AIzaSyCVG_4mKRkn0isI21G3cTYhvSK9oeIA294"; // 填入您的 Gemini API Key
 
